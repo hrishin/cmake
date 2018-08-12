@@ -1,0 +1,3 @@
+/usr/local/bin/mathapp
+/usr/local/lib/libmath.so
+/usr/local/include/math.h

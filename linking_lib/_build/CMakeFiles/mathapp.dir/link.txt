@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/mathapp.dir/app.c.o  -o mathapp -Wl,-rpath,/usr/local/lib: /usr/local/lib/libmath.so 
