@@ -15,7 +15,7 @@ install(TARGETS myapp DESTINATION bin)
 
 ```
 
-now `cd` to `_build` diretory and execuate `cmake ..`. It will generate all sripts.
+now `cd` to `_build` diretory and execuate `cmake ..`. It will generate all build sripts.
 yeahh!
 
 Hold on I dont want to install app bin to default install directory.
@@ -26,7 +26,7 @@ Cmake installs the build to defualt system directory. To override default one
 use
 
 ```
-cmake -DCMAKE_INSTALL_PREFIX = ../_install
+cmake .. -DCMAKE_INSTALL_PREFIX=../_install
 ```
 
 By execuating `make` and `make install` you can access the file binary `../_install/bin/myapp`
